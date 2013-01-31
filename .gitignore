@@ -55,6 +55,9 @@ Thumbs.db
 /gameplay/android/project.properties
 /gameplay/android/obj
 
+/gameplay-gesture/Debug
+/gameplay-gesture/Release
+
 /gameplay-tests/Debug
 /gameplay-tests/DebugMem
 /gameplay-tests/Release

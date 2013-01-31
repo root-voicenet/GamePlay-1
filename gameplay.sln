@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+# Visual C++ Express 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gameplay", "gameplay\gameplay.vcxproj", "{1032BA4B-57EB-4348-9E03-29DD63E80E4A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gameplay-tests", "gameplay-tests\gameplay-tests.vcxproj", "{0F27C8C4-58B2-E367-8D1F-01B714FDBF1B}"
@@ -42,6 +42,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sample06-racer", "gameplay-
 	ProjectSection(ProjectDependencies) = postProject
 		{1032BA4B-57EB-4348-9E03-29DD63E80E4A} = {1032BA4B-57EB-4348-9E03-29DD63E80E4A}
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gameplay-gesture", "gameplay-gesture\gameplay-gesture.vcxproj", "{9E84AE47-40BF-86F3-C950-B2C5342949BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -329,6 +331,24 @@ Global
 		{82522888-E09A-ED48-AD7D-247237B37B3A}.Release|Win32.Build.0 = Release|Win32
 		{82522888-E09A-ED48-AD7D-247237B37B3A}.Release|x64.ActiveCfg = Release|x64
 		{82522888-E09A-ED48-AD7D-247237B37B3A}.Release|x64.Build.0 = Release|x64
+		{9E84AE47-40BF-86F3-C950-B2C5342949BA}.Debug|BlackBerry.ActiveCfg = Debug|x64
+		{9E84AE47-40BF-86F3-C950-B2C5342949BA}.Debug|BlackBerrySimulator.ActiveCfg = Debug|x64
+		{9E84AE47-40BF-86F3-C950-B2C5342949BA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9E84AE47-40BF-86F3-C950-B2C5342949BA}.Debug|Win32.Build.0 = Debug|Win32
+		{9E84AE47-40BF-86F3-C950-B2C5342949BA}.Debug|x64.ActiveCfg = Debug|x64
+		{9E84AE47-40BF-86F3-C950-B2C5342949BA}.Debug|x64.Build.0 = Debug|x64
+		{9E84AE47-40BF-86F3-C950-B2C5342949BA}.DebugMem|BlackBerry.ActiveCfg = DebugMem|x64
+		{9E84AE47-40BF-86F3-C950-B2C5342949BA}.DebugMem|BlackBerrySimulator.ActiveCfg = DebugMem|x64
+		{9E84AE47-40BF-86F3-C950-B2C5342949BA}.DebugMem|Win32.ActiveCfg = DebugMem|Win32
+		{9E84AE47-40BF-86F3-C950-B2C5342949BA}.DebugMem|Win32.Build.0 = DebugMem|Win32
+		{9E84AE47-40BF-86F3-C950-B2C5342949BA}.DebugMem|x64.ActiveCfg = DebugMem|x64
+		{9E84AE47-40BF-86F3-C950-B2C5342949BA}.DebugMem|x64.Build.0 = DebugMem|x64
+		{9E84AE47-40BF-86F3-C950-B2C5342949BA}.Release|BlackBerry.ActiveCfg = Release|x64
+		{9E84AE47-40BF-86F3-C950-B2C5342949BA}.Release|BlackBerrySimulator.ActiveCfg = Release|x64
+		{9E84AE47-40BF-86F3-C950-B2C5342949BA}.Release|Win32.ActiveCfg = Release|Win32
+		{9E84AE47-40BF-86F3-C950-B2C5342949BA}.Release|Win32.Build.0 = Release|Win32
+		{9E84AE47-40BF-86F3-C950-B2C5342949BA}.Release|x64.ActiveCfg = Release|x64
+		{9E84AE47-40BF-86F3-C950-B2C5342949BA}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
